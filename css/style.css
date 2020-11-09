@@ -1,0 +1,393 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	line-height: 150%;
+
+}
+.conteiner{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* header part */
+
+header{
+	background: #87509C;
+	padding: 30px 0 80px;
+	color: #ffffff;
+
+}
+
+.menu{
+	overflow: hidden;
+	margin-bottom: 50px;
+	width: 70%;
+    float: left;
+    margin-top: 15px;
+
+}
+
+.logo{
+	width:30%;
+	float: left;
+}
+
+nav{}
+    
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 55px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #C86A40;
+}
+
+.header-box{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #EB7D4B;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 31px;
+    text-transform: uppercase;
+    box-shadow: 0px 5px #AD5F67;
+    margin-bottom: 10px;
+}
+
+section{
+    padding: 50px 0;
+    
+}
+
+/* service part  */
+
+.services{
+    background: #17C2A4;
+    width: 100%;
+    overflow: hidden;
+}
+
+.box{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.border{
+    height: 2px;
+    width: 100px;
+    background: #000000;
+    margin: 10px auto;
+}
+
+.service-box{
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.service-box:last-child{
+    margin-right: 0;
+}
+
+.sevice-box img{
+    width: 120px;
+    
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* team part  */
+
+.team{
+    background: #D3D3D3;
+    overflow: hidden;
+}
+
+.team-box{
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.team-box:last-child{
+    margin-right: 0;
+}
+
+.team-box img{
+    width: 100%;
+}
+
+h4{
+    color: #774BB8;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.team-box p{
+    margin-bottom: 10px;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-envelope {
+    font-size: 16px;
+    padding: 7px;
+    background-color: #9E9E9E;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-envelope:hover{
+    color: #EB7D4B;
+}
+
+/* skills part  */
+
+.skills{
+	overflow: hidden;
+}
+.skills-box{
+    width: 22%;
+    float: left;
+    margin-right:4%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.skills-box:last-child{
+    margin-right: 0;
+}
+
+/* portfolio part  */
+
+.portfolio{
+    background-color: #FFDD99;
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio-box{
+    width: 49.5%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.portfolio-box:nth-child(even){
+    margin-right: 0;
+    text-align: right;
+}
+
+.portfolio-box img{
+    width: 100%;
+}
+
+.portfolio-box p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio .btn{
+    margin-top: 10px;
+    background-color: #30D0C1;
+    box-shadow: 0px 5px #009688;
+}
+
+.button{
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.button-btn{
+    padding: 10px;
+    background: #C7AC75;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.button-btn:hover{
+    color: #EB7D4B;
+    background-color: #ffffff;
+}
+
+/* about part  */
+
+.about{
+    background-color: #D74680;
+    color: #ffffff;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.about-box{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.about-box:nth-child(odd){
+    margin-right: 0;
+}
+
+.about-box-left{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.about-box-left img{
+    width: 100%;
+}
+
+.about-box-right{
+    width: 65%;
+    float: left;
+    padding-top: 40px;
+}
+
+.about-box-right p{
+    font-style: italic;
+}
+
+.about-box-right h3{
+    font-size: 25px;
+}
+.about-box-right h4{
+    color: #FFEA3D;
+}
+
+/* contact part  */
+
+.contact{
+    background-color: #3C5499;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact .box{
+    margin-bottom: 0;
+}
+
+
+form{
+    margin-top: 35px;
+    width: 100%;
+}
+
+.form-group{
+    overflow: hidden;
+}
+
+.form-group input{
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+    padding: 10px;
+    background-color: #0D3252;
+    border: 0;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+}
+
+.form-group input:last-child{
+    margin-right: 0;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: #0D3252;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #616365;
+}
+
+form .btn{
+    background-color: #30D0C1;
+    box-shadow: 0px 5px #009688;
+}
+
+/* footer part  */
+
+footer{
+    background-color: #344B8E;
+    padding: 30px;
+}
+
+footer nav{
+    width: 90%;
+}
+
+footer nav ul{
+    text-align: left;
+}
+
+footer nav ul li{
+    margin-right: 10%;
+}
+
+footer nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer nav ul li a:hover{
+    color: #EB7D4B;
+    border-bottom: none;
+}
